@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background-color: coral;
+}
+.grid {
+	display: grid;
+	grid: auto / 1fr 1fr;
+	gap: 5px;
+}
+
+
+/* inner pic outer border */
+.shape-outer {
+    display: flex;
+    flex-shrink: 0;
+    height: calc(150px + 8vw);
+    width: calc(150px + 8vw);
+    background-image: linear-gradient(to bottom right, #ff3cac, #b70067, #460028);
+}
+.shape-inner {
+    height: calc(130px + 8vw);
+    width: calc(130px + 8vw);
+    margin: auto;
+}
+.shape-inner-one {
+    background: url(https://picsum.photos/id/1015/2000/2000) no-repeat center;
+    background-size: cover;
+}
+.shape-inner-two {
+    background: url(https://picsum.photos/id/1016/2000/2000) no-repeat center;
+    background-size: cover;
+}
+.shape-inner-three {
+    background: url(https://picsum.photos/id/1018/2000/2000) no-repeat center;
+    background-size: cover;
+}
+.shape-inner-four {
+    background: url(https://picsum.photos/id/1036/2000/2000) no-repeat center;
+    background-size: cover;
+}
+
+.quarter-circle-tl {
+	clip-path: circle(100% at 100% 100%);
+}
+.quarter-circle-tr {
+	clip-path: circle(100% at 0% 100%);
+}
+.quarter-circle-bl {
+	clip-path: circle(100% at 100% 0%);
+}
+.quarter-circle-br {
+	clip-path: circle(100% at 0% 0%);
+}
