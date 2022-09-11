@@ -32,19 +32,19 @@ body {
     margin: auto;
 }
 .shape-inner-one {
-    background: url(https://picsum.photos/id/1015/2000/2000) no-repeat center;
+    background: url(/images/image-1.jpg) no-repeat center;
     background-size: cover;
 }
 .shape-inner-two {
-    background: url(https://picsum.photos/id/1016/2000/2000) no-repeat center;
+    background: url(/images/image-2.jpg) no-repeat center;
     background-size: cover;
 }
 .shape-inner-three {
-    background: url(https://picsum.photos/id/1018/2000/2000) no-repeat center;
+    background: url(/images/image-3.jpg) no-repeat center;
     background-size: cover;
 }
 .shape-inner-four {
-    background: url(https://picsum.photos/id/1036/2000/2000) no-repeat center;
+    background: url(/images/image-4.jpg) no-repeat center;
     background-size: cover;
 }
 
